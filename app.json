@@ -1,0 +1,26 @@
+{
+    "name": "COVID-BOT",
+    "description": "A corona statistics and information telegram bot.",
+    "repository": "https://github.com/SDInifinity/Covid-Info-Bot",
+    "keywords": [
+        "corona info",
+        "telegram bot",
+        "pyrogram"
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather"
+        },
+        "API_ID": {
+            "description": "Your API_ID from @SDMyTgOrgBot"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from @SDMyTgOrgBot"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
